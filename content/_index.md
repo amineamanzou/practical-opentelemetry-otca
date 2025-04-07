@@ -35,5 +35,5 @@ Let's begin our observability journey with OpenTelemetry!
   {{< card link="docs/fundamentals-observability/" title="Fundamentals of Observability" icon="document-text" subtitle="The foundation of modern systems monitoring." >}}
   {{< card link="docs/opentelemetry-api-sdk/" title="The OpenTelemetry API and SDK" icon="code" subtitle="Understanding the core instrumentation components." >}}
   {{< card link="docs/opentelemetry-collector/" title="The OpenTelemetry Collector" icon="server" subtitle="Mastering the central component for data collection." >}}
-  {{< card link="docs/maintaining-debugging/" title="Maintaining and Debugging" icon="wrench" subtitle="Ensuring reliable telemetry pipelines." >}}
+  {{< card link="docs/maintaining-debugging/" title="Maintaining and Debugging" icon="adjustments" subtitle="Ensuring reliable telemetry pipelines." >}}
 {{< /cards >}}
