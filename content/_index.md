@@ -1,13 +1,12 @@
 ---
 title: "OpenTelemetry Certified Associate (OTCA) Journey"
-date: 2025-04-04
 weight: 1
 description: "A knowledge base documenting my journey to becoming an OpenTelemetry Certified Associate using the Zettelkasten method."
 ---
 
 Welcome to my documentation repository where I share my learning journey toward becoming an OpenTelemetry Certified Associate (OTCA). This knowledge base serves as both a study guide and a reference for anyone interested in observability and the OpenTelemetry ecosystem.
 
-# The OTCA Certification Journey
+## The OTCA Certification Journey
 
 The OpenTelemetry Certified Associate (OTCA) certification validates your knowledge of observability principles and practical implementation skills using the OpenTelemetry framework. This documentation captures my understanding of key concepts, best practices, and implementation details as I prepare for this certification.
 
