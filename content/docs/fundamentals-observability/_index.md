@@ -6,7 +6,7 @@ description: "Explore the core concepts of observability, including telemetry si
 
 This section covers the foundational knowledge required to understand observability and the role OpenTelemetry plays within it. It delves into the different types of telemetry data, how they are generated and used, and the core principles behind effective system monitoring and analysis.
 
-# Fundamentals of Observability
+## Fundamentals of Observability
 
 {{% cards %}}
   {{% card title="Failed Questions for the fundamentals of observability" description="A list of failed questions for the fundamentals of observability domain to help focus study efforts." link="failed-questions" icon="book-open" %}}

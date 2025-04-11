@@ -1,6 +1,5 @@
 ---
 title: "The Certification Domains "
-date: 2025-04-04
 weight: 1
 description: "Lerning more about the domains covered by the opentelemetry certification."
 ---
