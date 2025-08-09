@@ -6,7 +6,7 @@ on:
   push:
     branches: ["main"]
 
-  # Pull requests deploy a preview instead of the production site
+  # Pull requests run checks but skip deployment
   pull_request:
     branches: ["main"]
 
@@ -83,6 +83,8 @@ jobs:
 
   # Deployment job
   deploy:
+    # Skip deployment for pull-request events since Pages only has one environment
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -92,6 +94,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          # PRs deploy preview environments; pushes and manual runs go to production
-          preview: ${{ github.event_name == 'pull_request' }}
+
