@@ -40,4 +40,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/amineamanzou/practical-otel-otca-journey/edit/main/content"
+    base: "https://github.com/amineamanzou/practical-opentelemetry-otca/edit/main/content"
