@@ -1,7 +1,7 @@
 ---
 title: "The Certification Domains "
 weight: 1
-description: "Lerning more about the domains covered by the opentelemetry certification."
+description: "Learning more about the domains covered by the OpenTelemetry certification."
 ---
 
 The OTCA certification covers four main knowledge domains:
